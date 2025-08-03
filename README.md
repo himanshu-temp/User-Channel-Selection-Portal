@@ -16,13 +16,9 @@ This is a simple, modern web application designed for user authentication and ma
 * **Modern UI**: Built with **Tailwind CSS** for a clean, responsive, and mobile-friendly interface.
 * **Dark/Light Mode**: A user-friendly toggle to switch between dark and light themes, with preferences saved in local storage. The toggle button dynamically displays **emojis (☀️ and 🌙)** to indicate the current theme.
 
----
-
 ## 📁 Project Structure
 The project is organized into the following main files and directories:
 <pre> ```bash ├── admin.php # Admin panel for managing users and saved data ├── data/ # Stores user credentials (users.json) │ └── users.json ├── index.php # Main user interface for selecting favorite channels ├── login.php # User login page ├── logout.php # Script to destroy user sessions ├── register.php # User registration page ├── save-channels.php # Backend endpoint to save user channel selections └── saved/ # Directory where individual user channel selections are stored as JSON files ``` </pre>
-
----
 
 ## 🚀 Getting Started
 
