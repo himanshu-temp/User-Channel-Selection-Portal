@@ -19,32 +19,6 @@ This is a simple, modern web application designed for user authentication and ma
 ---
 
 ## 📁 Project Structure
-
-The project is organized into the following main files and directories:
-
-Markdown
-
-# User Channel Selection Portal
-
-This is a simple, modern web application designed for user authentication and managing a list of favorite channels. It allows users to register, log in, select channels from a pre-defined list, and save their preferences. The application features a clean, responsive design using Tailwind CSS and includes a dark/light mode toggle for enhanced user experience.
-
----
-
-## ✨ Features
-
-* **User Registration & Login**: Secure user authentication with password hashing.
-* **Persistent Sessions**: Users remain logged in until they choose to log out.
-* **Dynamic Channel Selection**: Fetches and displays a list of channels from a JSON file, allowing users to select their favorites.
-* **Admin Panel**: A separate, password-protected admin area to:
-    * Manage and delete user accounts.
-    * View and delete saved channel preference files.
-    * Copy shareable links and view the content of saved JSON files.
-* **Modern UI**: Built with **Tailwind CSS** for a clean, responsive, and mobile-friendly interface.
-* **Dark/Light Mode**: A user-friendly toggle to switch between dark and light themes, with preferences saved in local storage. The toggle button dynamically displays **emojis (☀️ and 🌙)** to indicate the current theme.
-
----
-
-## 📁 Project Structure
 The project is organized into the following main files and directories:
 ├── admin.php         # Admin panel for managing users and saved data
 ├── data/             # Stores user credentials (users.json)
