@@ -19,14 +19,13 @@ This is a simple, modern web application designed for user authentication and ma
 ## 📁 Project Structure
 ```
 ├── admin.php         # Admin panel for managing users and saved data
-
 ├── index.php         # Main user interface for selecting favorite channels
 ├── login.php         # User login page
 ├── logout.php        # Script to destroy user sessions
 ├── register.php      # User registration page
 ├── save-channels.php # Backend endpoint to save user channel selections
-├── data/             # Stores user credentials (users.json)
-│   └── users.json
+├── data/             
+│   └── users.json    # Stores user credentials (users.json)
 └── saved/
     └── username.json # Directory where individual user channel selections are stored as JSON files
 ```
