@@ -26,7 +26,8 @@ This is a simple, modern web application designed for user authentication and ma
 ├── logout.php        # Script to destroy user sessions
 ├── register.php      # User registration page
 ├── save-channels.php # Backend endpoint to save user channel selections
-└── saved/            # Directory where individual user channel selections are stored as JSON files
+└── saved/
+      └── username.json # Directory where individual user channel selections are stored as JSON files
 ```
 ## 🚀 Getting Started
 
