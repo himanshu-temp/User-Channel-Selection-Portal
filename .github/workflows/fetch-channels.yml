@@ -16,7 +16,7 @@ jobs:
 
       - name: 🌐 Fetch latest M3U from ByetHost
         run: |
-          curl -sL "https://website.byethost4.com/rawdata/playlist.php" -o playlist.m3u
+          curl -A "Mozilla/5.0" -sL "https://your.byethost10.com/playlist.m3u" -o playlist.m3u
 
       - name: 💾 Commit & push if file changed
         run: |
